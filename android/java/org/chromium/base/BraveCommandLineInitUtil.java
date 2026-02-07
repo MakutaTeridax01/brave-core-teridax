@@ -18,6 +18,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.function.Supplier;
 
+
+// Manages configs for command line initialization. 
 @NullMarked
 public abstract class BraveCommandLineInitUtil {
     private static final String TAG = "BraveCommandLineInitUtil";
