@@ -57,6 +57,7 @@ public class BraveReflectionUtil {
         return null;
     }
 
+    // Returns values of specified field 
     @Nullable
     public static Object getField(Class ownerClass, String fieldName, Object obj) {
         try {
@@ -73,6 +74,7 @@ public class BraveReflectionUtil {
         return null;
     }
 
+    // Sets values of specified field 
     public static void setField(Class ownerClass, String fieldName, Object obj, Object newValue) {
         try {
             Field field = ownerClass.getDeclaredField(fieldName);
