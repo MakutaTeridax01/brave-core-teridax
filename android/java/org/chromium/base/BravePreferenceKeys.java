@@ -7,6 +7,8 @@ package org.chromium.base;
 
 import org.chromium.build.annotations.NullMarked;
 
+
+// Defines constants for preference keys 
 @NullMarked
 public final class BravePreferenceKeys {
     public static final String BRAVE_BOTTOM_TOOLBAR_ENABLED_KEY =
